@@ -131,7 +131,7 @@ section.sidebar ul.facet-list {
 */
 
 #block-islandora-solr-simple {
-	width: 45%; position: relative; top: 180px; float: right;
+	width: 45%; position: relative; top: 160px; float: right;
 
 }
 
@@ -152,7 +152,7 @@ section.sidebar ul.facet-list {
 
 #block-block-5 {
 	float: left;
-	position: relative; top: 165px;
+	position: relative; top: 145px;
 	width: 45%;
 	clear: both;
 }

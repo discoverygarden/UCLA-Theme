@@ -59,9 +59,9 @@ body {
 
 #header {
   height: 450px;
-  border-bottom: 3px solid #576694;
+  border-bottom: 3px solid #ce1126;
   background: url('../images/head-back.jpg') top center no-repeat;
-  background-color: #576694;
+  background-color: #ce1126;
   clear: both;
   padding: 40px 25px 0;
 }
@@ -292,10 +292,14 @@ section.sidebar ul li.first {
   padding: 25px;
 }
 
-#footer .col-1, #block-menu-block-3 {
+#footer .block {
   width: 30%;
   float: left;
   padding-right: 3%;
+}
+
+#block-block-7 {
+  margin-top: 35px;
 }
 
 #modalContent a {
