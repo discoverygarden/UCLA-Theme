@@ -101,8 +101,9 @@ img.language-icon {
  */
 
 #main-menu, .menu-block-2 {
-  border-bottom: 1px solid #ccc;
-  width: 100%;
+  border-top: 1px solid #ccc;
+  width: 100%; height: 20px;
+  padding-top: 7px;
 }
 
 #secondary-menu {

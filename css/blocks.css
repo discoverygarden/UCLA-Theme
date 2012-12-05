@@ -110,6 +110,14 @@ h2.block-title { /* Block title */
 #block-user-online { /* "Who's online" block for a list of the online users */
 }
 
+section.sidebar h3 {
+	margin-bottom: 1em;
+}
+
+section.sidebar ul.facet-list {
+	margin-top: 0; margin-bottom: 2em;
+}
+
 /*
  * Menu Blocks
  */
@@ -123,7 +131,7 @@ h2.block-title { /* Block title */
 */
 
 #block-islandora-solr-simple {
-	width: 45%; margin-top: 180px; float: right;
+	width: 45%; position: relative; top: 180px; float: right;
 
 }
 
@@ -144,8 +152,9 @@ h2.block-title { /* Block title */
 
 #block-block-5 {
 	float: left;
-	margin-top: 165px;
+	position: relative; top: 165px;
 	width: 45%;
+	clear: both;
 }
 
 	#block-block-5 h2{
@@ -164,9 +173,12 @@ h2.block-title { /* Block title */
 }
 
 #header #edit-submit {
-	margin-left: -96px;
 	height: 36px; width: 85px;
-	position: relative; top: -3px;
+	position: absolute; top: 8px; right: 10%;
 		border-radius: 5px;
 		border: 1px solid #ccc;
+}
+
+.facet-list .count {
+	display: inline-block;
 }

@@ -246,6 +246,40 @@ span.field-label { /* The inline field label used by the Fences module */
 .region-sidebar-second {
 }
 
+section.sidebar {
+  letter-spacing: 0.4pt;
+}
+
+section.sidebar ul li {
+  list-style: none;
+  border-bottom: 1px solid #737475;
+  padding: 0 0.5em;
+  margin: 0 -0.5em;
+  line-height: 2em;
+}
+
+  section.sidebar ul li:hover {
+    background: #CE1126;
+  }
+
+  section.sidebar ul li a {
+    line-height: 2em;
+    width: 100%;  
+    padding-top: 2px;
+  }
+
+  span.plusminus {
+  }
+
+
+  section.sidebar ul li a:hover {
+    color: #fff;
+  }
+
+section.sidebar ul li.first {
+  border-top: 1px solid #737475;
+}
+
 /*
  * Footer
  */
@@ -273,10 +307,22 @@ span.field-label { /* The inline field label used by the Fences module */
   background-color: #576694 !important;
 }
 
-
 /*
  * Page bottom
  */
 
 .region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/*
+  * Islandora Solr Search Results
+*/
+
+.islandora-solr-search-result {
+  margin: 0 0 2.5em;
+  border-bottom: 1px solid #3F4051;
+}
+
+dl.solr-fields {
+  border: none !important;
 }
