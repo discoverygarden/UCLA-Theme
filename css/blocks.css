@@ -28,7 +28,7 @@ h2.block-title { /* Block title */
 #header h2.block-title {
 	text-transform: uppercase;
 	font-size: 95%; letter-spacing: 1pt;
-	font-weight: 600 !important;
+	font-weight: 600;
 }
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
