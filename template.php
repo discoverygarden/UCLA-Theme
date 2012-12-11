@@ -219,3 +219,8 @@ function ucladlp_form_islandora_solr_simple_search_form_alter(&$form, &$form_sta
   $form['simple']['advanced_link'] = $link;
 }
 
+function ucladlp_preprocess_html(&$variables) {
+  drupal_add_css('http://openfontlibrary.org/face/linear-regular', array('type' => 'external'));
+  drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('type' => 'external'));
+  drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('type' => 'external'));
+}
