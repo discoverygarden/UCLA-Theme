@@ -17,6 +17,9 @@ body {
   padding: 0;
   background: #363339;
   color: #f9fcfe;
+  font-family: 'News Cycle'; font-size: 110%;
+  font-style: normal; font-weight: 100;
+  letter-spacing: 0.5pt;
 }
 
 #wrapper {
@@ -25,6 +28,10 @@ body {
 
 #page {
   padding: 0 15px;
+}
+
+p {
+  line-height: 1.7em;
 }
 
 /*
@@ -253,7 +260,7 @@ section.sidebar {
 section.sidebar ul li {
   list-style: none;
   border-bottom: 1px solid #737475;
-  padding: 0 0.5em;
+  padding: 0 0.5em 3px;
   margin: 0 -0.5em;
   line-height: 2em;
 }
