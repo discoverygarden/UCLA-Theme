@@ -275,6 +275,7 @@ h1 {
   /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
   margin-top: 0.75em; /* 1.5rem / 2em = .75em */
   margin-bottom: 0.75em;
+  color: #FFB300;
 }
 
 h2 {
@@ -285,10 +286,12 @@ h2 {
 }
 
 h3 {
-  font-size: 1.17em;
+  font-size: 95%;
   line-height: 1.282em; /* 1.5rem / 1.17em = 1.282em */
   margin-top: 1.282em;
   margin-bottom: 1.282em;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
 }
 
 h4 {

@@ -21,11 +21,14 @@
 }
 
 h2.block-title { /* Block title */
+	font-size: 135%;
+	font-weight: 100;
 }
 
 #header h2.block-title {
 	text-transform: uppercase;
-	font-size: 100%; letter-spacing: 0.8pt;
+	font-size: 95%; letter-spacing: 1pt;
+	font-weight: 600;
 }
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
@@ -110,6 +113,14 @@ h2.block-title { /* Block title */
 #block-user-online { /* "Who's online" block for a list of the online users */
 }
 
+section.sidebar h3 {
+	margin-bottom: 1em;
+}
+
+section.sidebar ul.facet-list {
+	margin-top: 0; margin-bottom: 2em;
+}
+
 /*
  * Menu Blocks
  */
@@ -123,7 +134,7 @@ h2.block-title { /* Block title */
 */
 
 #block-islandora-solr-simple {
-	width: 45%; margin-top: 180px; float: right;
+	width: 45%; position: relative; top: 160px; float: right;
 
 }
 
@@ -142,20 +153,26 @@ h2.block-title { /* Block title */
 	padding-right: 100px;
 }
 
+#islandora-solr-result-count {
+	color: #737475;
+}
+
 #block-block-5 {
 	float: left;
-	margin-top: 165px;
+	position: relative; top: 145px;
 	width: 45%;
+	clear: both;
 }
 
 	#block-block-5 h2{
-		font-family: 'Opal LT Pro';
+		font-family: 'Open Baskerville 0.0.53' !important;
 		font-style: italic;
-		font-weight: normal;
-		font-size: 250% !important;
-		letter-spacing: 0 !important;
+		font-weight: 100 !important;
+		font-size: 200% !important;
+		letter-spacing: 0.5pt !important;
 		text-transform: none !important;
-		height: 40px;
+		height: 25px;
+		margin-left: -3px;
 	}
 
 #block-block-6 {
@@ -164,9 +181,12 @@ h2.block-title { /* Block title */
 }
 
 #header #edit-submit {
-	margin-left: -96px;
 	height: 36px; width: 85px;
-	position: relative; top: -3px;
+	position: absolute; top: 8px; right: 10%;
 		border-radius: 5px;
 		border: 1px solid #ccc;
+}
+
+.facet-list .count {
+	display: inline-block;
 }
