@@ -64,20 +64,28 @@ p {
   margin: 0 !important;
 }
 
+#header_top ul {
+  margin: 0.5em 0;
+}
+
 #header {
-  height: 450px;
   border-bottom: 3px solid #ce1126;
   background: url('../images/head-back.jpg') top center no-repeat;
   background-color: #ce1126;
   clear: both;
-  padding: 40px 25px 0;
+  padding: 20px 25px 0;
+
+  box-shadow: 0px 0px 5px #222;
+  -moz-box-shadow: 0px 0px 5px #222;
+  -webkit-box-shadow: 0px 0px 5px #222;
 }
-©
+
 #logo { /* Wrapping link for logo */
   float: left; /* LTR */
   margin: 0;
   padding: 0;
 }
+
 #logo img {
   vertical-align: bottom;
 }
@@ -219,7 +227,7 @@ span.field-label { /* The inline field label used by the Fences module */
   border-radius: 7px;
   height: 3em;
   padding: 0;
-  margin: 2em 0 3em;
+  margin: 1em 0 2em;
 }
 .item-list .pager li { /* Each page number in the pager list */
   padding: 0 0.5em;
@@ -299,15 +307,6 @@ section.sidebar ul li.first {
   padding: 25px;
 }
 
-#footer .block {
-  width: 30%;
-  float: left;
-  padding-right: 3%;
-}
-
-#block-block-7 {
-  margin-top: 35px;
-}
 
 #modalContent a {
   color: #CE1126;

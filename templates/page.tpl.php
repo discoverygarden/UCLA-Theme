@@ -74,12 +74,6 @@
 
     <div id="header_top">
 
-      <?php print render($page['header_top']); ?>
-
-    </div>
-
-    <header id="header" role="banner">
-
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
       <?php endif; ?>
@@ -97,6 +91,12 @@
           <?php endif; ?>
         </hgroup><!-- /#name-and-slogan -->
       <?php endif; ?>
+      <?php print render($page['header_top']); ?>
+
+    </div>
+
+    <header id="header" role="banner">
+
 
       <?php if ($secondary_menu): ?>
         <nav id="secondary-menu" role="navigation">
